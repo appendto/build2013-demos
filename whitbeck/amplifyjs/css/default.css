@@ -1,0 +1,95 @@
+﻿
+#app-container header {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+#side-bar {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+#side-bar ul {
+    list-style: none;
+    margin-left: 100px;
+}
+#side-bar li {
+    float: left;
+    margin: 20px;
+}
+#dataCanvas {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    width: 100%;
+    height: 60%;
+}
+
+#tabs {
+    height: 400px;
+    width: 80%;
+}
+
+    #badges, #tags {
+        overflow: auto;
+        height: 320px;
+    }    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+#side-bar {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+#side-bar ul {
+    list-style: none;
+    margin-left: 100px;
+}
+#side-bar li {
+    float: left;
+    margin: 20px;
+}
+#dataCanvas {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    width: 100%;
+    height: 60%;
+}
+
+#tabs {
+    height: 400px;
+    width: 80%;
+}
+
+    #badges, #tags {
+        overflow: auto;
+        height: 320px;
+    }
+
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+    #side-bar ul {
+        margin-left: 0;
+    }
+
+    #side-bar img {
+        width: 175px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>amplifyjs</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <link href="Content/themes/base/jquery-ui.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    <script src="Scripts/jquery-2.0.2.js"></script>
+    <script src="Scripts/jquery-ui-1.10.3.js"></script>
+    <script src="Scripts/amplify.js"></script>
+    <!-- amplifyjs references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="js/ajax-definitions.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="app-container">
+        <header>
+            <h1>Stacker Tracker</h1>
+        </header>
+        <div id="side-bar">
+            <ul></ul>
+        </div>
+        <div id="dataCanvas">
+            <div id="tabs">
+                <ul>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#badges">Badges</a></li>
+                    <li><a href="#tags">Tags</a></li>
+                </ul>
+                <div id="profile"></div>
+                <div id="badges"></div>
+                <div id="tags"></div>
+            </div>
+        </div>
+    </div>
+    <div id="add-user" title="Add User">
+        <p>Add a new user</p>
+        <form>
+            <fieldset>
+                <div>
+                    <label>User Name: </label>
+                    <input name="fullname" id="fullname" value="">
+                </div>
+                <div>
+                    <label>User ID: </label>
+                    <input name="userid" id="userid" value="">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
