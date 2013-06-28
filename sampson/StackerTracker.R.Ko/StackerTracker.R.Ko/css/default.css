@@ -1,0 +1,55 @@
+﻿h1 {
+    padding: .25em .5em;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: .85em;
+    font-size: 2em;
+    background-image: linear-gradient(to bottom, #333, transparent 50%);
+}
+
+    li:hover {
+        background-image:
+            linear-gradient(to right, orange 10px, transparent 10px),
+            linear-gradient(to bottom, #333, transparent 50%);
+    }
+
+img {
+    opacity: .75;
+    margin-right: 1em;
+    transition: all .5s;
+    border-radius: 50%;
+    background-color: #FFF;
+    vertical-align: middle;
+}
+
+li:hover img {
+    opacity: 1;
+    transform: rotate(15deg);
+}
+
+li > span:nth-of-type(1) {
+    color: orange;
+}
+
+li > span {
+    display: inline-block;
+    color: #FFF;
+    margin-right: 50px;
+    white-space: nowrap;
+}
+
+    li > span:nth-of-type(1) {
+        padding: .2em .5em;
+        border-radius: .25em .25em 0 0;
+        background-image: linear-gradient(to bottom, #121212, transparent);
+    }
+
+span span {
+    color: #CCC;
+}
